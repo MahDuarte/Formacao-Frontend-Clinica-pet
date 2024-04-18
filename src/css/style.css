@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    background-color: #5ed1e0;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.header {
+    min-height: 150px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 915px;
+    height: 320px;
+}
+.header .img-banner img {
+    border-radius: 10%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.menu {
+    width: 15%;
+    padding: 10px;
+    font-size: 18px;
+}
+.menu .logo {
+    text-align: center;
+    margin-top: 5px;
+}
+.menu img {
+    max-width: 150px;
+    border-radius: 50%;    
+}
+.menu ul {
+    padding: 2px;
+    margin-top: 30px;
+}
+.menu ul li {
+    list-style: none;    
+}
+.menu ul li a {
+    color: #000000;
+    text-decoration:none;
+}
+.menu ul li a:hover {
+    text-decoration: underline;
+    color: #f1f1f1;
+}
+.content {
+    min-height: 300px;
+    padding: 20px;
+    font-size: 20px;
+}
+.footer {
+    background-color: #000000;
+    min-height: 150px;
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 15px;
+}
+table {
+    -webkit-box-shadow: 10px 10px 8px 3px rgba(214,214,214,1);
+    -moz-box-shadow: 10px 10px 8px 3px rgba(214,214,214,1);
+    box-shadow: 10px 10px 8px 3px rgb(30, 23, 56);
+    background-color: #90b9e0;
+    border-radius: 3%;
+    font-size: 20px;
+}
+table thead th {
+    background-color: #201957;
+    color: #f1f1f1;
+    border-radius: 5%;
+}
+table tbody tr:nth-child(even) td {
+    background-color: #65a2db;
+    border-radius: 5%;
+}
